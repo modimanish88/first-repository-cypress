@@ -1,0 +1,23 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ApiTests": "npx cypress run --spec \"cypress/integration/examples/APItests/*\" ",
+    "uiControls": "npx cypress run --spec \"cypress/integration/examples/UIcontrols/*\"",
+    "end2endcases": "npx cypress run --headed --spec \"cypress/integration/examples/end2end/*\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "cypress": "^14.2.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-sql-server": "^1.0.0",
+    "exceljs": "^4.4.0",
+    "neat-csv": "^5.1.0"
+  }
+}
